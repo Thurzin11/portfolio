@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  box-sizing: border-box;
+  font-size: 25px;
+  background: #040301;
+  color: #fff;
+}
+.cabecalho{
+  padding: 2% 0 0 10%;
+}
+.cabecalho__menu{
+  display: flex;
+  gap: 80px;
+}
+.cabecalho__menu__link{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #650000;
+  text-decoration: none;
+}
+.titulo-destaque {
+  color: #650000;
+}
+.apresentacao{
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.apresentacao__conteudo{
+  width: 50%;   
+}
+.apresentacao__conteudo__titulo {
+  font-size: 36px;
+  font-family: 'Krona One', sans-serif;
+}
+.apresentacao__conteudo__texto {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.arthur{
+  float: left;
+  width: 30%;
+  border: thin solid;
+  padding: 4px;
+  margin: 0px 20px 10px 0;
+  border-radius: 10% ;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  width: 65px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 0.6rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+
+.box:hover{
+  width: 200px;
+  background: #c32aa3;
+  border-radius: 35px;
+  color: #fff;
+}
+
+.box:nth-child(2):hover{
+  background: #25d366;
+}
+
+.box:nth-child(3):hover{
+  background: black;
+  color: white;
+}
+
+.box:nth-child(4):hover{
+  background: blue;
+}
+
+.navbar p{
+  transform: translate(60px);
+}
+
+.box .icon{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all .4s ease;
+}
+
+.instagram{
+  background-color: #c32aa3;
+}
+
+.whatsapp{
+  background-color: #25d366;
+}
+
+.github{
+  background-color: black;
+}
+
+.linkedin{
+  background-color: blue;
+}
+
+.box:houver .icon{
+  background: #fff;
+  color: #3b3b3b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
+}
+.redes{
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+.rodape{
+  padding: 24px;
+  color: #000000;
+  background-color: #650000;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media(max-width: 1200px){
+  .apresentacao{
+      flex-direction: column-reverse;
+  }
+}
