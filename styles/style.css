@@ -39,8 +39,11 @@ body{
 }
 .apresentacao__conteudo{
   width: 50%;   
+  gap: 30px;
+  text-align: center;
 }
 .apresentacao__conteudo__titulo {
+  text-align: center;
   font-size: 36px;
   font-family: 'Krona One', sans-serif;
 }
@@ -48,7 +51,11 @@ body{
   font-size: 24px;
   font-family: 'Montserrat', sans-serif;
 }
-
+.espaco__conhecimentos{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
 .arthur{
   float: left;
   width: 30%;
@@ -126,7 +133,10 @@ body{
   font-size: 24px;
   font-weight: 400;
 }
-
+.subtitulo{
+  font-size: 1rem;
+    color: #C0C0C0;
+}
 @media(max-width: 1200px){
   .apresentacao{
       flex-direction: column-reverse;
