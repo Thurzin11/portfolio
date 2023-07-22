@@ -75,26 +75,6 @@ body{
   transition: all 0.7s ease;
 }
 
-.box:hover{
-  width: 200px;
-  background: #c32aa3;
-  border-radius: 35px;
-  color: #fff;
-}
-
-.box:nth-child(2):hover{
-  background: #25d366;
-}
-
-.box:nth-child(3):hover{
-  background: black;
-  color: white;
-}
-
-.box:nth-child(4):hover{
-  background: blue;
-}
-
 .navbar p{
   transform: translate(60px);
 }
@@ -150,5 +130,8 @@ body{
 @media(max-width: 1200px){
   .apresentacao{
       flex-direction: column-reverse;
+  }
+  .apresentacao__conteudo{
+    width: 90%;
   }
 }
