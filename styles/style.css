@@ -150,6 +150,6 @@ body{
   .cabecalho{
     display: flex;
     justify-content: center;
-    padding: 0%;
+    margin-top: 1em;
   }
 }
